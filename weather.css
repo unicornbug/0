@@ -1,0 +1,152 @@
+html {
+  font-size: calc(15px + 0.390625vw);
+  /*font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+}
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+header {
+  margin: 0 3%;
+  padding: 2% 4% 1% 4%;
+
+  background-color: rgba(121, 127, 143, 0.2);
+  font-size: larger;
+  font-weight: 100;
+}
+section {
+  margin-top: 1%;
+}
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  padding-top: 1rem;
+}
+
+h1 {
+  text-align: left;
+}
+
+h2 {
+  text-align: right;
+  font-size: 2.4rem;
+}
+h3 {
+  font-family: "Fira Sans", sans-serif;
+  text-align: left;
+  padding-left: 5%;
+  font-style: italic;
+  color: rgba(54, 56, 62, 0.9);
+}
+
+img {
+  width: 10rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+p {
+  margin: 0 0.5rem 0 0;
+  text-align: right;
+}
+ul {
+  font-size: small;
+  text-align: left;
+  color: rgba(54, 56, 62, 0.9);
+  padding-left: 1%;
+}
+
+.search {
+  flex-basis: content;
+  align-content: flex-end;
+}
+
+.search-button {
+  font-weight: 100;
+  font-size: medium;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  border: 1px solid rgba(121, 127, 143, 0.7);
+  border-radius: 2rem;
+  background-color: rgba(244, 243, 243, 0.7);
+  box-shadow: 4px 4px 10px rgba(100, 100, 100, 0.2);
+  transition: all 200ms ease-in-out;
+}
+
+.date,
+.time {
+  padding: 0 0 0 0;
+  align-self: flex-end;
+  margin-bottom: 00.2rem;
+}
+
+.current-weather {
+  padding: 0 2%;
+  margin: 0 3% 1% 3%;
+}
+
+.current-weather-condition {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  margin-left: 0.9rem;
+}
+
+.temperature-today {
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+}
+
+.today-real-feel {
+  font-family: "Fira Sans", sans-serif;
+  text-align: right;
+  font-size: 0.8rem;
+  padding-right: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.daily-high,
+.daily-low {
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 0.5rem;
+}
+.daily-high {
+  color: rgba(210, 7, 7, 0.725);
+}
+.daily-low {
+  color: rgba(39, 39, 158, 0.627);
+  padding-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.forecast {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  padding: 0.1rem 0.1rem 0 0.1rem;
+  padding-bottom: 0;
+  margin: 0 5% 0 5%;
+}
+.real-feel {
+  padding-bottom: 0.1rem;
+}
+
+.temperature {
+  padding-top: 1.8rem;
+}
+
+.weekday {
+  font-size: 0.9rem;
+  padding: 1.8rem 0 0 0;
+}
+.weather-condition {
+  font-size: 0.6rem;
+  padding-top: 1rem;
+}
+
+.first {
+  background-color: rgba(121, 127, 143, 0.2);
+}
